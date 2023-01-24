@@ -9,6 +9,7 @@ public class Main {
 			int success = sc.nextInt();
 			student[success] = 1;
 		}
+		
 		for(int i=1; i<student.length; i++) {
 			if(student[i]!=1)
 				System.out.println(i);
